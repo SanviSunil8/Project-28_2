@@ -24,7 +24,7 @@ class PlayerArcher {
       Matter.Body.setAngle(this.body, angle);
     }
 
-    if (keyIsDown(UP_ARROW) && angle > -1.6) {
+    if (keyIsDown(UP_ARROW) && angle > -1.9) {
       angle -= 0.01;
       Matter.Body.setAngle(this.body, angle);
     }

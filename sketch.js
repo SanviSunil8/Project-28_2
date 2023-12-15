@@ -31,8 +31,8 @@ function setup() {
     120
   );
 
-  board1 = new Board(width - 300, 330, 50, 200);
-  board2 = new Board(width - 550,340, 50, 200);
+  board1 = new Board(width - 300, 200, 100, 100);
+  board2 = new Board(width - 550,340, 100, 100);
 }
 
 function draw() {
